@@ -1,4 +1,4 @@
-package com.lucaspadua.crud_hibernate.entities.JPAEntities;
+package com.lucaspadua.crud_hibernate.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
