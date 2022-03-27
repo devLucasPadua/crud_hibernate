@@ -1,4 +1,4 @@
-# crud_hibernate
+# CRUD HIBERNATE
 DevDoge/crud_hibernate 
 
 Este é um projeto de treino para CRUD com REST, Hibernate, JPA, Spring Boot, MySQL.
