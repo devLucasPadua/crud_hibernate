@@ -18,7 +18,7 @@ public class ContactController {
 
     //Métodos do CRUD
 
-    @GetMapping
+    @GetMapping("")
     public List contactFindAll(){
         return repository.findAll();
     }
@@ -30,7 +30,7 @@ public class ContactController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-    @PostMapping
+    @PostMapping("/")
     public Contact contactCreate(@RequestBody Contact contact){
         return repository.save(contact);
     }
